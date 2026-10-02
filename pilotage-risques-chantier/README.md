@@ -31,7 +31,7 @@ https://www.kaggle.com/datasets/ziya07/bim-ai-integrated-dataset
 - **Contenu :** 1 000 projets (tunnels, barrages, ponts, routes, bâtiments) répartis dans 5 villes américaines, décrits par 28 variables : coûts et durées prévus et réels, vibrations, fissures, capacité portante, météo, qualité de l'air, consommation d'énergie, matériaux, heures de travail, accidents, score et niveau de risque.
 - **Cible :** `Risk_Level` (Low, Medium, High).
 
-Un premier dataset (*Building Performance Dataset*) avait été écarté après exploration : entièrement synthétique, avec des distributions trop uniformes. Le dataset retenu s'est révélé présenter le même problème de fond.
+Un premier dataset (*Building Performance Dataset* : https://www.kaggle.com/datasets/ziya07/construction-project-performance-dataset) avait été écarté après exploration : entièrement synthétique, avec des distributions trop uniformes. Le dataset retenu s'est révélé présenter le même problème de fond.
 
 Le fichier n'est pas inclus dans le dépôt : voir [`data/README.md`](data/README.md).
 
