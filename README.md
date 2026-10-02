@@ -66,13 +66,15 @@ Trois modèles de classification, du plus simple au plus robuste : régression l
 | Modèle | F1 macro | MCC | Accuracy |
 |---|:---:|:---:|:---:|
 | Baseline naïve (toujours High) | 0,40 | 0,00 | 67,5 % |
-| Régression logistique | 0,41 | −0,06 | 65 % |
-| Arbre de décision | 0,44 | −0,03 | 63 % |
-| Random forest optimisée | 0,56 | 0,00 | 65 % |
+| Régression logistique | 0,51 | 0,05 | 53,5 % |
+| Arbre de décision | 0,45 | 0,01 | 45,5 % |
+| Random forest optimisée | 0,46 | −0,07 | 57 % |
+
+*Résultats sur le jeu de test (200 projets), obtenus avec les notebooks de ce dépôt.*
 
 *Résultats sur le jeu de test (200 projets), tels que présentés lors du Demo Day. Les notebooks révisés utilisent une validation croisée à 5 plis : les valeurs peuvent légèrement varier, la conclusion reste la même.*
 
-Au fil des itérations, le F1 macro est passé de 0,29 à 0,56 :
+Au fil des itérations (présentées lors du Demo Day), le F1 macro est passé de 0,29 à 0,56 :
 
 | Itération | F1 macro |
 |---|:---:|
@@ -116,8 +118,8 @@ pilotage-risques-chantier/
 ## Reproduire l'analyse
 
 ```bash
-git clone https://github.com/arthyaroul/pilotage-risques-chantier.git
-cd pilotage-risques-chantier
+git clone https://github.com/arthyaroul/Project01_pilotage-risques-chantier.git
+cd Project01_pilotage-risques-chantier
 pip install -r requirements.txt
 ```
 
